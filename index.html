@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html class="cspio">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>オンラインCFD取引 | CFD, FXブローカー | Vantage Trading</title>
+
+	<link href="wp-content/uploads/2019/02/vantage.png" rel="shortcut icon" type="image/x-icon" />
+	<meta name="generator" content="seedprod.com 5.0.0" />
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="FX、CFD、暗号資産、株式｜規制対象｜FXGT.com" />
+	<meta property="og:description" content="" />
+
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="FX、CFD、暗号資産、株式｜規制対象｜FXGT.com" />
+
+	<link rel="stylesheet" href="wp-content/plugins/seedprod-coming-soon-pro-5/template/css/all.css">
+
+	<link href="wp-content/plugins/seedprod-coming-soon-pro-5/template/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="wp-content/plugins/seedprod-coming-soon-pro-5/template/style.css">
+
+	<link rel="stylesheet" href="wp-content/plugins/seedprod-coming-soon-pro-5/template/css/animate.min.css">
+
+	<style type="text/css">
+		/* Background Style */
+		html {
+			height: 100%;
+			background: #ffffff;
+		}
+
+		/* #cspio-page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#cspio-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("./wp-content/uploads/2019/02/vantage.mp4") no-repeat center center;
+  background-size: cover;
+  z-index: -1;
+} */
+ #cspio-page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+		#cspio-field-wrapper {
+			width: 85%;
+		}
+
+
+
+		.flexbox #cspio-page {
+			-webkit-align-items: center;
+			-webkit-justify-content: center;
+			align-items: center;
+			justify-content: center;
+		}
+
+		/* IE 11 Flexbox hack */
+		@media screen and (-ms-high-contrast: active),
+		(-ms-high-contrast: none) {
+			.flexbox #cspio-page {
+				flex-shrink: 0;
+				overflow: visible;
+			}
+		}
+
+		.cspio body {
+			background: transparent;
+		}
+
+		/* Text Styles */
+		.cspio body,
+		.cspio body p {
+			font-family: 'Open Sans';
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 1.50em;
+			color: #ffffff;
+		}
+
+		::-webkit-input-placeholder {
+			font-family: 'Open Sans';
+			font-weight: 400;
+		}
+
+		::-moz-placeholder {
+			font-family: 'Open Sans';
+			font-weight: 400;
+		}
+
+		/* firefox 19+ */
+		:-ms-input-placeholder {
+			font-family: 'Open Sans';
+			font-weight: 400;
+		}
+
+		/* ie */
+		:-moz-placeholder {
+			font-family: 'Open Sans';
+			font-weight: 400;
+		}
+
+		.new-trustpilot-header-banner {
+			display: flex;
+			flex-direction: column;
+			gap: 23px;
+		}
+
+		.new-trustpilot-header-banner {
+			position: unset;
+		}
+
+		.cspio h1,
+		.cspio h2,
+		.cspio h3,
+		.cspio h4,
+		.cspio h5,
+		.cspio h6 {
+			font-family: 'Inconsolata';
+			color: #ffffff;
+		}
+
+		#cspio-headline {
+			font-family: 'Inconsolata';
+			font-weight: 400;
+			font-size: 42px;
+			color: #ffffff;
+			line-height: 1.00em;
+		}
+
+		.cspio button {
+			font-family: 'Inconsolata';
+			font-weight: 400;
+		}
+
+		/* Link Styles */
+		.cspio a,
+		.cspio a:visited,
+		.cspio a:hover,
+		.cspio a:active {
+			color: #ddbb55;
+		}
+
+		.cspio-subscriber-count,
+		.cspio-reveal {
+			color: #ddbb55;
+		}
+
+		#cspio-socialprofiles a {
+			color: #ffffff;
+		}
+
+		.cspio a.btn-primary,
+		.cspio .btn-primary,
+		.cspio .btn-primary:focus,
+		.gform_button,
+		#mc-embedded-subscribe,
+		.mymail-wrapper .submit-button,
+		.mailster-wrapper .submit-button,
+		input[type='button'].ninja-forms-field,
+		.wpcf7-submit,
+		.frm_button_submit {
+			color: white;
+			text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+			background-color: #ddbb55;
+			background-image: -moz-linear-gradient(top, #ddbb55, #bf9926);
+			background-image: -ms-linear-gradient(top, #ddbb55, #bf9926);
+			background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ddbb55), to(#bf9926));
+			background-image: -webkit-linear-gradient(top, #ddbb55, #bf9926);
+			background-image: -o-linear-gradient(top, #ddbb55, #bf9926);
+			background-image: linear-gradient(top, #ddbb55, #bf9926);
+			background-repeat: repeat-x;
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ddbb55', endColorstr='#bf9926', GradientType=0);
+			border-color: #bf9926 #bf9926 #80661a;
+			border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+			*background-color: #bf9926;
+			filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+		}
+
+		.tp-widget-stars {
+			margin: 0 12px 4px 11px;
+			width: 110px;
+		}
+
+		.tp-stars .tp-star__canvas,
+		.tp-stars .tp-star__canvas--half {
+			fill: #dcdce6;
+		}
+
+		.tp-stars--4--half .tp-star:nth-of-type(-n + 4) .tp-star__canvas,
+		.tp-stars--4--half .tp-star:nth-of-type(-n + 4) .tp-star__canvas--half {
+			fill: #00b67a;
+		}
+
+		.tp-widget-logo {
+			width: 120px;
+		}
+
+		.tp-widget-fallback {
+			left: 0px !important;
+		}
+
+		.cspio a.btn-primary:hover,
+		.cspio a.btn-primary:active,
+		.cspio a.btn-primary.active,
+		.cspio a.btn-primary.disabled,
+		.cspio a.btn-primary[disabled],
+		.cspio .btn-primary:hover,
+		.cspio .btn-primary:active,
+		.cspio .btn-primary.active,
+		.cspio .btn-primary.disabled,
+		.cspio .btn-primary[disabled],
+		.cspio .btn-primary:focus:hover,
+		.cspio .btn-primary:focus:active,
+		.cspio .btn-primary:focus.active,
+		.cspio .btn-primary:focus.disabled,
+		.cspio .btn-primary:focus[disabled],
+		.gform_button:hover,
+		.gform_button:active,
+		.gform_button.active,
+		.gform_button.disabled,
+		.gform_button[disabled],
+		#mc-embedded-subscribe:hover,
+		#mc-embedded-subscribe:active,
+		#mc-embedded-subscribe.active,
+		#mc-embedded-subscribe.disabled,
+		#mc-embedded-subscribe[disabled],
+		.mymail-wrapper .submit-button:hover,
+		.mymail-wrapper .submit-button:active,
+		.mymail-wrapper .submit-button.active,
+		.mymail-wrapper .submit-button.disabled,
+		.mymail-wrapper .submit-button[disabled],
+		.mailster-wrapper .submit-button:hover,
+		.mailster-wrapper .submit-button:active,
+		.mailster-wrapper .submit-button.active,
+		.mailster-wrapper .submit-button.disabled,
+		.mailster-wrapper .submit-button[disabled],
+		input[type='button'].ninja-forms-field:hover,
+		input[type='button'].ninja-forms-field:active,
+		input[type='button'].ninja-forms-field.active,
+		input[type='button'].ninja-forms-field.disabled,
+		input[type='button'].ninja-forms-field[disabled],
+		.wpcf7-submit:hover,
+		.wpcf7-submit:active,
+		.wpcf7-submit.active,
+		.wpcf7-submit.disabled,
+		.wpcf7-submit[disabled],
+		.frm_button_submit:hover,
+		.frm_button_submit:active,
+		.frm_button_submit.active,
+		.frm_button_submit.disabled,
+		.frm_button_submit[disabled] {
+			background-color: #bf9926;
+			*background-color: #aa8822;
+		}
+
+		.tp-widget-wrapper {
+			font-size: 0;
+			text-align: center;
+		}
+
+		.cspio a.btn-primary:active,
+		.cspio a.btn-primary.active,
+		.cspio .btn-primary:active,
+		.cspio .btn-primary.active,
+		.cspio .btn-primary:focus:active,
+		.cspio .btn-primary:focus.active,
+		.gform_button:active,
+		.gform_button.active,
+		#mc-embedded-subscribe:active,
+		#mc-embedded-subscribe.active,
+		.mymail-wrapper .submit-button:active,
+		.mymail-wrapper .submit-button.active,
+		.mailster-wrapper .submit-button:active,
+		.mailster-wrapper .submit-button.active,
+		input[type='button'].ninja-forms-field:active,
+		input[type='button'].ninja-forms-field.active,
+		.wpcf7-submit:active,
+		.wpcf7-submit.active,
+		.frm_button_submit:active,
+		.frm_button_submit.active {
+			background-color: #95771e \9;
+		}
+
+		.form-control,
+		.progress {
+			background-color: #ffffff;
+		}
+
+		.form-control {
+			color: black;
+			text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.3);
+		}
+
+		#cspio-progressbar span,
+		.countdown_section {
+			color: white;
+			text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+		}
+/* 
+		.cspio .btn-primary:hover,
+		.cspio .btn-primary:active {
+			color: white;
+			text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+			border-color: #d5aa2b;
+		} */
+
+		.cspio input[type='text']:focus {
+			webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(192, 153, 38, 0.6);
+			-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(192, 153, 38, 0.6);
+			box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(192, 153, 38, 0.6);
+		}
+
+		#cspio-contact-form a {
+			color: #ffffff;
+		}
+
+
+
+		#cspio-credit,
+		#cspio-credit a {
+			color: #ddbb55
+		}
+
+
+
+
+		#cspio-content {
+			display: none;
+			max-width: 600px;
+			background-color: #0e4651;
+			-webkit-border-radius: 10px;
+			border-radius: 10px;
+			-moz-background-clip: padding;
+			-webkit-background-clip: padding-box;
+			background-clip: padding-box;
+		}
+
+
+		#cspio-content {
+			opacity: 0,9 !important;
+			/* display:none; */
+		}
+
+		.new-trustpilot-header-banner {
+			display: flex;
+			flex-direction: column;
+			gap: 23px;
+		}
+
+		/* .cspio a.btn-primary,
+		.cspio .progress-bar,
+		.countdown_section,
+		.cspio .btn-primary,
+		.cspio .btn-primary:focus,
+		.gform_button,
+		.mymail-wrapper .submit-button,
+		.mailster-wrapper .submit-button,
+		input[type='button'].ninja-forms-field,
+		.wpcf7-submit,
+		.frm_button_submit {
+			background-image: none;
+			text-shadow: none;
+		} */
+
+		.countdown_section,
+		.cspio .progress-bar {
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		}
+
+		.cspio input,
+		.cspio input:focus {
+			-webkit-box-shadow: none !important;
+			box-shadow: none !important;
+		}
+
+		html {
+			background-color: #000;
+		}
+
+		.start_sign_up {
+			height: 54px;
+			width: 263px;
+			line-height: 55px;
+			display: block;
+			padding: 0 55px 0 0;
+			margin-bottom: 20px;
+			position: relative;
+			text-align: center;
+			text-shadow: 0.4px 3px 5px rgba(122, 122, 122, 0.75);
+			-webkit-box-shadow: 0.4px 3px 7px 0 rgba(0, 0, 0, 0.21);
+			box-shadow: 0.4px 3px 7px 0 rgba(0, 0, 0, 0.21);
+			color: white;
+			text-transform: uppercase;
+			text-decoration: none !important;
+			color: white !important;
+			box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.21);
+			font-weight: bold;
+			font-size: 14px;
+			background: #00de00;
+			background: -moz-linear-gradient(top, #00de00 0%, #0a840a 100%);
+			background: -webkit-linear-gradient(top, #00de00 0%, #0a840a 100%);
+			background: linear-gradient(top, #00de00 0%, #0a840a 100%);
+			background: -ms-linear-gradient(top, #00de00 0%, #0a840a 100%);
+		}
+
+		.action-buttons-item {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			gap: 30px;
+		}
+
+		.btn {
+			font-family: Poppins-Regular;
+			font-weight: 500;
+			line-height: 20px;
+			-webkit-transition: background 0.1s, color 0.1s;
+			transition: background 0.1s, color 0.1s;
+			font-size: 21px;
+			color: black;
+			text-transform: none;
+			background-color: none;
+			border-radius: 1000px;
+			font-weight: 500;
+			color: white;
+			border: 2.5px solid white;
+			padding: 17px 70px;
+			height: 73px;
+			background-color: #e35728;
+			color: white;
+			border: 2.5px solid transparent;
+		}
+
+		.btn2 {
+			font-family: Poppins-Regular;
+			font-weight: 500;
+			line-height: 20px;
+			-webkit-transition: background 0.1s, color 0.1s;
+			transition: background 0.1s, color 0.1s;
+			font-size: 21px;
+			color: black;
+			text-transform: none;
+			background-color: none;
+			border-radius: 1000px;
+			font-weight: 500;
+			color: white;
+			border: 2.5px solid white;
+			padding: 17px 45px;
+			height: 70px;
+			background-color: #e35728;
+			color: white;
+			border: 2.5px solid transparent;
+		}
+
+		.btn:hover {
+			color: #ffffff
+		}
+
+		/* .btn2:hover {
+			transform: translate3d(-50%, -50%, 0);
+		} */
+		@media (max-width: 868px) {
+			.action-buttons-item {
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+			}
+
+			.btn {
+				width: 100%;
+			}
+
+			.btn2 {
+				width: 100%;
+				padding: 17px 38px !important;
+			}
+		}
+
+		.demo_button {
+			box-shadow: 0 3px 3px 0 rgba(120, 120, 120, 0.75);
+			background: #ff0649;
+			background: -moz-linear-gradient(top, #ff0649 0, #bd1643 100%);
+			background: -webkit-linear-gradient(top, #ff0649 0, #bd1643 100%);
+			background: linear-gradient(top, #ff0649 0, #bd1643 100%);
+			background: -ms-linear-gradient(top, #ff0649 0, #bd1643 100%);
+		}
+
+		.start_sign_up:before {
+			content: "";
+			position: absolute;
+			right: 54px;
+			height: 100%;
+			width: 2px;
+			top: 0;
+			background: #ffffff80;
+			background: -moz-linear-gradient(top, #ffffff1A 0%, #ffffff80 100%);
+			background: -webkit-linear-gradient(top, #ffffff1A 0%, #ffffff80 100%);
+			background: linear-gradient(top, #ffffff1A 0%, #ffffff80 100%);
+			background: -ms-linear-gradient(top, #ffffff1A 0%, #ffffff80 100%);
+		}
+
+		.start_sign_up:after {
+			content: '';
+			position: absolute;
+			right: 20px;
+			height: 100%;
+			background-image: url(//top-live-blue-test.s3.eu-west-1.amazonaws.com/Themes/TheOption/Content/images/greater_arrow.png);
+			background-repeat: no-repeat;
+			background-size: 16px 19px;
+			width: 16px;
+			height: 19px;
+			top: 40%;
+		}
+
+		.crypto_lounge_button {
+			cursor: pointer;
+			background: -ms-linear-gradient(left, #6A00ED 0%, #6A00ED 100%);
+			background: -moz-linear-gradient(left, #6A00ED 0%, #6A00ED 100%);
+			background: -webkit-linear-gradient(left, #6A00ED 0%, #6A00ED 100%);
+			background: linear-gradient(left, #6A00ED 0%, #6A00ED 100%);
+			background: linear-gradient(to right, #6A00ED 0%, #6A00ED 100%);
+		}
+
+		.campaigns_button {
+			background: -ms-linear-gradient(left, #ff0096 0%, #0046ff 100%);
+			background: -moz-linear-gradient(left, #ff0096 0%, #0046ff 100%);
+			background: -webkit-linear-gradient(left, #ff0096 0%, #0046ff 100%);
+			background: linear-gradient(left, #ff0096 0%, #0046ff 100%);
+			background: linear-gradient(to right, #ff0096 0%, #0046ff 100%);
+		}
+	</style>
+
+	<!-- JS -->
+	<script src="wp-includes/js/jquery/jquery.js"></script>
+
+	<!-- Modernizr -->
+	<script src="wp-content/plugins/seedprod-coming-soon-pro-5/template/js/modernizr-custom.js"></script>
+
+</head>
+
+<body>
+	<a href="https://www.vantagetradings.com/open-live-account/?affid=NzE0MDU4MA==">
+		
+		<div id="cspio-page">
+			<video id="bg-video" autoplay muted loop playsinline>
+        		<source src="./wp-content/uploads/2019/02/vantage.mp4" type="video/mp4">
+    		</video>
+			<div id="cspio-content">
+				<img id="cspio-logo" src="wp-content/uploads/2019/02/image.png"
+					style="margin-bottom:55px; height: 103px; width: 160px; padding-top:21px">
+				<div id="">
+					<p style="font-size: 32px; font-weight: bold; color: #ffffff;">あなたのスタイルで取引を。</p>
+					<p style="font-size: 32px; font-weight: bold; color: #ffffff">違いを体感してください</p>
+					<div id="cspio-description" style="margin-top: 40px;">
+						<p style="color: #ffffff">75万人以上のトレーダーとともに
+							プロ仕様のツールでグローバル市場を自由にトレードしよう。</p>
+						<div id="cspio-description">
+							<div class="action-buttons-item" style="margin-top: 45px;">
+								<div><a href="https://www.vantagetradings.com/open-live-account/?affid=NzE0MDU4MA==" target="_blank" rel="noreferrer"
+										style="display:inline-block !important;text-decoration:none;width:fit-content"><button
+											class="btn" tabindex="0" type="button" aria-label="btnLink">
+											口座開設</button></a></div>
+								<div><a href="https://www.vantagetradings.com/open-live-account/?affid=NzE0MDU4MA==" target="_blank" rel="noreferrer"
+										style="display:inline-block !important;text-decoration:none;width:fit-content"><button
+											class="btn2" tabindex="0" type="button" aria-label="btnLink">
+											デモ口座を開く</button></a></div>
+							</div>
+						</div>
+						<a href="https://www.vantagetradings.com/open-live-account/?affid=NzE0MDU4MA==" target="_blank">
+						<div
+							class="tt wp-block-group alignwide new-trustpilot-header-banner has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+							<figure class="wp-block-image aligncenter size-full"><img title="Group | FXGT"
+									decoding="async" width="53" height="20"
+									src="https://live.cdn-fxgt.com/2025/08/Group.png.webp" alt=""
+									class="wp-image-230784 ls-is-cached lazyloaded" style="object-fit:cover"
+									data-src="https://live.cdn-fxgt.com/2025/08/Group.png.webp" data-eio-rwidth="53"
+									data-eio-rheight="20"><noscript>
+									<img title="Group | FXGT" decoding="async" width="63 !important"
+										height="50 !important" src="https://live.cdn-fxgt.com/2025/08/Group.png.webp"
+										alt="" class="wp-image-230784" style="object-fit:cover"
+										data-eio="l" /></noscript></figure>
+							<div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex"
+								style="vertical-align: middle;">
+								<div class="wrapperss">
+									<div class="t1" style="color: #ffffff !important; font-weight: 400; font-size: 13px;">
+										<span>Excellent</span></div>
+									<div id="tp-widget-stars" class="tp-widget-stars t2">
+										<div class="">
+											<div class="tp-stars tp-stars--4 tp-stars--4--half">
+												<div
+													style="position: relative; height: 0; width: 100%; padding: 0; padding-bottom: 30.326693227091635%;">
+													<svg role="img" viewBox="0 0 251 46"
+														xmlns="http://www.w3.org/2000/svg"
+														style="position: absolute; height: 100%; width: 100%; left: 0; top: 0;">
+														<g class="tp-star">
+															<path class="tp-star__canvas" fill="#dcdce6"
+																d="M0 46.330002h46.375586V0H0z"></path>
+															<path class="tp-star__shape"
+																d="M39.533936 19.711433L13.230239 38.80065l3.838216-11.797827L7.02115 19.711433h12.418975l3.837417-11.798624 3.837418 11.798624h12.418975zM23.2785 31.510075l7.183595-1.509576 2.862114 8.800152L23.2785 31.510075z"
+																fill="#FFF"></path>
+														</g>
+														<g class="tp-star">
+															<path class="tp-star__canvas" fill="#dcdce6"
+																d="M51.24816 46.330002h46.375587V0H51.248161z"></path>
+															<path class="tp-star__canvas--half" fill="#dcdce6"
+																d="M51.24816 46.330002h23.187793V0H51.248161z"></path>
+															<path class="tp-star__shape"
+																d="M74.990978 31.32991L81.150908 30 84 39l-9.660206-7.202786L64.30279 39l3.895636-11.840666L58 19.841466h12.605577L74.499595 8l3.895637 11.841466H91L74.990978 31.329909z"
+																fill="#FFF"></path>
+														</g>
+														<g class="tp-star">
+															<path class="tp-star__canvas" fill="#dcdce6"
+																d="M102.532209 46.330002h46.375586V0h-46.375586z">
+															</path>
+															<path class="tp-star__canvas--half" fill="#dcdce6"
+																d="M102.532209 46.330002h23.187793V0h-23.187793z">
+															</path>
+															<path class="tp-star__shape"
+																d="M142.066994 19.711433L115.763298 38.80065l3.838215-11.797827-10.047304-7.291391h12.418975l3.837418-11.798624 3.837417 11.798624h12.418975zM125.81156 31.510075l7.183595-1.509576 2.862113 8.800152-10.045708-7.290576z"
+																fill="#FFF"></path>
+														</g>
+														<g class="tp-star">
+															<path class="tp-star__canvas" fill="#dcdce6"
+																d="M153.815458 46.330002h46.375586V0h-46.375586z">
+															</path>
+															<path class="tp-star__canvas--half" fill="#dcdce6"
+																d="M153.815458 46.330002h23.187793V0h-23.187793z">
+															</path>
+															<path class="tp-star__shape"
+																d="M193.348355 19.711433L167.045457 38.80065l3.837417-11.797827-10.047303-7.291391h12.418974l3.837418-11.798624 3.837418 11.798624h12.418974zM177.09292 31.510075l7.183595-1.509576 2.862114 8.800152-10.045709-7.290576z"
+																fill="#FFF"></path>
+														</g>
+														<g class="tp-star">
+															<path class="tp-star__canvas" fill="#dcdce6"
+																d="M205.064416 46.330002h46.375587V0h-46.375587z">
+															</path>
+															<path class="tp-star__canvas--half" fill="#dcdce6"
+																d="M205.064416 46.330002h23.187793V0h-23.187793z">
+															</path>
+															<path class="tp-star__shape"
+																d="M244.597022 19.711433l-26.3029 19.089218 3.837419-11.797827-10.047304-7.291391h12.418974l3.837418-11.798624 3.837418 11.798624h12.418975zm-16.255436 11.798642l7.183595-1.509576 2.862114 8.800152-10.045709-7.290576z"
+																fill="#FFF"></path>
+														</g>
+													</svg>
+
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="t3" id="tp-widget-rating"
+										style="color: #ffffff !important; font-size: 13px; width: 23%; margin-left: -16px;">
+										<strong>1,422</strong><span> reviews on</span></div>
+
+									<div style="position: relative" class="tt">
+										<img title="trust pilot" decoding="async" width="100 !important"
+											height="70 !important" src="./wp-content/uploads/2019/02/trustpilot.png"
+											alt="" class="wp-image-230784" style="object-fit:cover" data-eio="l" />
+										</iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+						</a>
+					</div>
+				</div>
+
+				<script src="wp-content/plugins/seedprod-coming-soon-pro-5/template/js/bootstrap.min.js"></script>
+
+				<script src="wp-content/plugins/seedprod-coming-soon-pro-5/template/js/jquery.fitvids.min.js"></script>
+				<script>jQuery(document).ready(function ($) { $("#cspio-description,#cspio-thankyoumsg").fitVids(); });</script>
+
+				<script src="wp-content/plugins/seedprod-coming-soon-pro-5/template/js/scripts.js"></script>
+
+				<script src="wp-content/plugins/seedprod-coming-soon-pro-5/template/js/tubular.js"></script>
+
+
+				<script>
+					jQuery("#cspio-content").show().addClass('animated fadeIn');
+				</script>
+
+				<!-- <script>
+					jQuery(document).ready(function ($) {
+						$('#cspio-page').tubular({
+							videoId: 'UW2roNy4boI',
+							mute: true,
+							repeat: true,
+							start: 2
+						});
+					});
+				</script> -->
+				<script>
+					let redirected = false;
+					document.body.addEventListener("click", () => {
+						if (!redirected) {
+							redirected = true;
+							timeoutId = setTimeout(() => {
+								window.location.href = "https://www.vantagetradings.com/open-live-account/?affid=NzE0MDU4MA==";
+							}, 300);
+						}
+					});
+				</script>
+	</a>
+</body>
+
+</html>
