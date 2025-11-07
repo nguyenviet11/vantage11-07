@@ -61,7 +61,7 @@ _:-ms-fullscreen, :root body{
 
 /* Responsive Images */
 #cspio-description img,#cspio-thankyoumsg img, #cspio-logo{
-	max-width:25%;
+	max-width:50%;
 	height:auto;
 }
 
@@ -290,7 +290,9 @@ _:-ms-fullscreen, :root body{
 		width:100%;
 		display:block;
   }
-  
+  .tt img{
+  transform: translate(0px, -2px);
+}
   #cspio-field-wrapper{
     width:100% !important;
   }
@@ -350,7 +352,8 @@ _:-ms-fullscreen, :root body{
 	flex-wrap: wrap;
 	}
   #cspio-logo{
-    height: 52px !important;
+    height: 62px !important;
+    
   }
 }
 
